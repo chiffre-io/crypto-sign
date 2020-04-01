@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@47ng/codec@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@47ng/codec/-/codec-0.5.0.tgz#28294e5c76170ed9a1403a5bbbb9e129c11b94ce"
+  integrity sha512-k/+OCuagLqv52RLrbzrRv+4qL68Y/1xm1EGu4N0nUXTjzVHZ6YQmo/aWNDAChcL+CP+fyNq1BDqLttHDzbfzSA==
+  dependencies:
+    "@stablelib/base64" "^1.0.0"
+    "@stablelib/hex" "^1.0.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -485,6 +493,16 @@
   integrity sha512-Debi3Baff1Qu1Unc3mjJ96MgpbwTn43S1+9yJ0llWygPwDNu2aaWBD6yc9y/Z8XDRNhx7U+u2UDg2OGQXkclUQ==
   dependencies:
     type-detect "4.0.8"
+
+"@stablelib/base64@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/base64/-/base64-1.0.0.tgz#e08ba78078c731cbbb244530b1750659c52ba7cb"
+  integrity sha512-s/wTc/3+vYSalh4gfayJrupzhT7SDBqNtiYOeEMlkSDqL/8cExh5FAeTzLpmYq+7BLLv36EjBL5xrb0bUHWJWQ==
+
+"@stablelib/hex@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stablelib/hex/-/hex-1.0.0.tgz#9f2d21d412803e72a3bbc0ab4690e9bda0ca91cf"
+  integrity sha512-EJ9oGiuaFw/Y0cBATTxo73sgqOgdnSmZ9ftU9FND9SD51OM8wvAfS78uPy3oBNmLWc/sZK5twMbEFf/A4T2F8A==
 
 "@types/babel__core@^7.1.0":
   version "7.1.6"
@@ -4150,6 +4168,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+
+tweetnacl@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.3.tgz#ac0af71680458d8a6378d0d0d050ab1407d35596"
+  integrity sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
 
 type-check@~0.3.2:
   version "0.3.2"

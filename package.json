@@ -1,7 +1,7 @@
 {
-  "name": "@chiffre/template-library",
+  "name": "@chiffre/crypto-sign",
   "version": "0.0.0-semantically-released",
-  "description": "Template for Chiffre libraries",
+  "description": "Lightweight serialization for TweetNaCl signatures",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {
@@ -11,11 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chiffre-io/template-library"
+    "url": "https://github.com/chiffre-io/crypto-sign"
   },
   "keywords": [
     "chiffre",
-    "template"
+    "tweetnacl",
+    "signature"
   ],
   "publishConfig": {
     "access": "public"
@@ -28,7 +29,10 @@
     "build": "run-s build:clean build:ts",
     "ci": "run-s build test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@47ng/codec": "^0.5.0",
+    "tweetnacl": "^1.0.3"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@types/jest": "^25.1.4",
